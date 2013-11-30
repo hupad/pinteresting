@@ -5,7 +5,7 @@
     <tr>
       <th>Descriptin</th>
       <th>User</th>
-      <th></th>
+      <th>Image</th>
       <th></th>
     </tr>
   </thead>
@@ -15,6 +15,7 @@
       <tr>
         <td><%= pin.descriptin %></td>
         <td><%= pin.user.email if pin.user %></td>
+        <td><%= image_tag pin.image.url(:medium) %></td>
         <td><%= link_to 'Show', pin %></td>
         <% if pin.user == current_user %>
 
