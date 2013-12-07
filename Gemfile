@@ -8,6 +8,8 @@ gem 'devise', '~>3.2.2'
 
 gem 'paperclip', '~>3.0'
 
+gem 'aws-sdk', '~>1.16.1'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
