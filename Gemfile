@@ -10,6 +10,12 @@ gem 'paperclip', '~>3.0'
 
 gem 'aws-sdk', '~>1.16.1'
 
+gem 'turbolinks'
+
+gem 'jquery-turbolinks'
+
+gem 'masonry-rails', '~>0.2.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
